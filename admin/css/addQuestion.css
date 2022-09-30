@@ -1,0 +1,143 @@
+:root {
+  --background: #3393ec;
+  --colorBtn: #096ac5;
+  --white: #fff;
+  --black: #303138;
+  --light: #f8f8f8;
+  --textcolor: #030303;
+}
+.head {
+  color: var(--background);
+  margin: 0 0;
+}
+.form {
+  padding: 24px;
+}
+.form p {
+  text-align: center;
+  margin: 12px 0;
+}
+.form-control {
+  margin: 0 0 12px 0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 17px;
+}
+.form-control:hover {
+  cursor: pointer;
+}
+
+.form-label {
+  font-weight: 500;
+  margin: 0 0 0 6px;
+  font-size: 16px;
+  color: var(--black);
+}
+.submit_btn {
+  width: 100%;
+  height: 48px;
+  background-color: var(--background);
+  color: var(--white);
+  font-size: 18px;
+  margin: 16px 0;
+  border-radius: 16px;
+}
+.submit_btn:hover {
+  color: var(--white);
+}
+.rem_btn,
+.rem_btn:hover {
+  width: 120px;
+  margin-left: calc(50% - 60px);
+  height: 48px;
+  background-color: #ff7957;
+  color: var(--white);
+  font-size: 18px;
+  margin-top: 16px;
+  border-radius: 160px;
+}
+.add_btn,
+.add_btn:hover {
+  margin: 24px;
+  font-size: 18px;
+  border-radius: 100px;
+  width: 180px;
+  color: var(--white);
+  background-color: var(--background);
+}
+.add_btn i {
+  margin-right: 6px;
+}
+.card {
+  background-color: var(--white);
+  border-radius: 0px;
+  padding: 16px;
+  margin: 16px 0;
+}
+.card div:first-child {
+  margin: 0 0 4px 0;
+  padding: 0 0 4px 0;
+  border-bottom: 1px solid #cccccc;
+}
+.card div:first-child span {
+  margin: 0 12px 0 0;
+  font-size: 18px;
+  color: #a0a0a0;
+}
+.card div:first-child span:first-child {
+  color: var(--black);
+  font-weight: 600;
+}
+.question_box,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+}
+.question_box {
+  margin: 12px 0 0 0;
+}
+
+.card a {
+  color: #3393ec;
+  text-decoration: none;
+  text-align: right;
+  background: none;
+  border: none;
+}
+.edit_box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  float: right;
+}
+.edit_box div {
+  width: 40px;
+  margin: 0 0 0 12px;
+  aspect-ratio: 1;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  background-color: var(--light);
+}
+.card pre {
+  font-size: 54px;
+}
+.edit_box div:hover {
+  cursor: pointer;
+}
+.noShow {
+  display: none;
+}

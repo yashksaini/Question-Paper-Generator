@@ -1,0 +1,35 @@
+.card {
+  border: none;
+  background-color: #f0f0f0;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 32px;
+}
+.card div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card i {
+  font-size: 36px;
+}
+.card h1 {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  margin: 16px 0;
+  line-height: 1.5;
+}
+.card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 120px;
+  padding: 8px 16px;
+  background-color: #fdfdfd;
+  color: rgb(31, 28, 34);
+  border: none;
+  border-radius: 100px;
+}
